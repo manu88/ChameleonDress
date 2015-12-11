@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5960B24B1BDD5D1900A4549F /* cameleon-logo-fat-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 5960B2491BDD5D1900A4549F /* cameleon-logo-fat-01.png */; };
+		5960B24C1BDD5D1900A4549F /* cameleon-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5960B24A1BDD5D1900A4549F /* cameleon-logo.png */; };
+		59CE583B1BDCDE4B008A089E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59CE583A1BDCDE4B008A089E /* AppDelegate.swift */; };
+		59CE583D1BDCDE4B008A089E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59CE583C1BDCDE4B008A089E /* ViewController.swift */; };
+		59CE58401BDCDE4B008A089E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59CE583E1BDCDE4B008A089E /* Main.storyboard */; };
+		59CE58421BDCDE4B008A089E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59CE58411BDCDE4B008A089E /* Assets.xcassets */; };
+		59CE58451BDCDE4B008A089E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59CE58431BDCDE4B008A089E /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5960B2491BDD5D1900A4549F /* cameleon-logo-fat-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cameleon-logo-fat-01.png"; sourceTree = SOURCE_ROOT; };
+		5960B24A1BDD5D1900A4549F /* cameleon-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cameleon-logo.png"; sourceTree = SOURCE_ROOT; };
+		59CE58371BDCDE4B008A089E /* ChameleonDress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChameleonDress.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		59CE583A1BDCDE4B008A089E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		59CE583C1BDCDE4B008A089E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		59CE583F1BDCDE4B008A089E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		59CE58411BDCDE4B008A089E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		59CE58441BDCDE4B008A089E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		59CE58461BDCDE4B008A089E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59CE58341BDCDE4B008A089E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59CE582E1BDCDE4B008A089E = {
+			isa = PBXGroup;
+			children = (
+				59CE58391BDCDE4B008A089E /* ChameleonDress */,
+				59CE58381BDCDE4B008A089E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		59CE58381BDCDE4B008A089E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59CE58371BDCDE4B008A089E /* ChameleonDress.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59CE58391BDCDE4B008A089E /* ChameleonDress */ = {
+			isa = PBXGroup;
+			children = (
+				59CE583A1BDCDE4B008A089E /* AppDelegate.swift */,
+				59CE583C1BDCDE4B008A089E /* ViewController.swift */,
+				59CE583E1BDCDE4B008A089E /* Main.storyboard */,
+				59CE58411BDCDE4B008A089E /* Assets.xcassets */,
+				5960B2491BDD5D1900A4549F /* cameleon-logo-fat-01.png */,
+				5960B24A1BDD5D1900A4549F /* cameleon-logo.png */,
+				59CE58431BDCDE4B008A089E /* LaunchScreen.storyboard */,
+				59CE58461BDCDE4B008A089E /* Info.plist */,
+			);
+			path = ChameleonDress;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59CE58361BDCDE4B008A089E /* ChameleonDress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59CE58491BDCDE4B008A089E /* Build configuration list for PBXNativeTarget "ChameleonDress" */;
+			buildPhases = (
+				59CE58331BDCDE4B008A089E /* Sources */,
+				59CE58341BDCDE4B008A089E /* Frameworks */,
+				59CE58351BDCDE4B008A089E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChameleonDress;
+			productName = ChameleonDress;
+			productReference = 59CE58371BDCDE4B008A089E /* ChameleonDress.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59CE582F1BDCDE4B008A089E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Manuel Deneu";
+				TargetAttributes = {
+					59CE58361BDCDE4B008A089E = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 9B5Q8E45YJ;
+					};
+				};
+			};
+			buildConfigurationList = 59CE58321BDCDE4B008A089E /* Build configuration list for PBXProject "ChameleonDress" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 59CE582E1BDCDE4B008A089E;
+			productRefGroup = 59CE58381BDCDE4B008A089E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59CE58361BDCDE4B008A089E /* ChameleonDress */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59CE58351BDCDE4B008A089E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59CE58451BDCDE4B008A089E /* LaunchScreen.storyboard in Resources */,
+				5960B24B1BDD5D1900A4549F /* cameleon-logo-fat-01.png in Resources */,
+				59CE58421BDCDE4B008A089E /* Assets.xcassets in Resources */,
+				5960B24C1BDD5D1900A4549F /* cameleon-logo.png in Resources */,
+				59CE58401BDCDE4B008A089E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59CE58331BDCDE4B008A089E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59CE583D1BDCDE4B008A089E /* ViewController.swift in Sources */,
+				59CE583B1BDCDE4B008A089E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		59CE583E1BDCDE4B008A089E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59CE583F1BDCDE4B008A089E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		59CE58431BDCDE4B008A089E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59CE58441BDCDE4B008A089E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		59CE58471BDCDE4B008A089E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		59CE58481BDCDE4B008A089E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		59CE584A1BDCDE4B008A089E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ChameleonDress/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ReturnStudio.ChameleonDress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		59CE584B1BDCDE4B008A089E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ChameleonDress/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ReturnStudio.ChameleonDress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59CE58321BDCDE4B008A089E /* Build configuration list for PBXProject "ChameleonDress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59CE58471BDCDE4B008A089E /* Debug */,
+				59CE58481BDCDE4B008A089E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59CE58491BDCDE4B008A089E /* Build configuration list for PBXNativeTarget "ChameleonDress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59CE584A1BDCDE4B008A089E /* Debug */,
+				59CE584B1BDCDE4B008A089E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 59CE582F1BDCDE4B008A089E /* Project object */;
+}
