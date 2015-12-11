@@ -100,8 +100,7 @@ class ViewController: UIViewController , CBCentralManagerDelegate , CBPeripheral
         
     }
     
-    
-    
+
     func centralManager(central: CBCentralManager, didConnectPeripheral peripheral: CBPeripheral)
     {
         print("Did connect to \(peripheral.name)")
